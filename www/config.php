@@ -10,7 +10,7 @@
   define('HOST_NAME', php_uname('n'));
   
   // name of this camera
-  define('CAM_NAME', 'mycam');
+  define('CAM_NAME', 'avatar');
   
   // unique camera string build from application name, camera name, host name
   define('CAM_STRING', APP_NAME . " " . APP_VERSION . ": " . CAM_NAME . '@' . HOST_NAME);
