@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style_minified.css" />
     <script src="js/style_minified.js"></script>
     <script src="js/script.js"></script>
+    <script src="pipan.js"></script> 
   </head>
   <body onload="setTimeout('init();', 100);">
   
@@ -28,6 +29,12 @@
       <input id="timelapse_button" type="button" class="btn btn-primary">
       <input id="md_button" type="button" class="btn btn-primary">
       <input id="halt_button" type="button" class="btn btn-danger">
+      <br>
+      <input type="button" value="up" onclick="servo_up();"><br>
+      <input type="button" value="left" onclick="servo_left();">
+      <input type="button" value="down" onclick="servo_down();">
+      <input type="button" value="right" onclick="servo_right();">
+      
     </div>
     
     <div class="container-fluid text-center">
