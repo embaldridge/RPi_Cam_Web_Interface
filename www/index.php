@@ -24,16 +24,14 @@
 
     <div class="container-fluid text-center liveimage">
       <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);"></div>
-      <input id="video_button" type="button" class="btn btn-primary">
       <input id="image_button" type="button" class="btn btn-primary">
-      <input id="timelapse_button" type="button" class="btn btn-primary">
       <input id="md_button" type="button" class="btn btn-primary">
       <input id="halt_button" type="button" class="btn btn-danger">
       <br>
-      <input type="button" value="up" onclick="servo_up();"><br>
-      <input type="button" value="left" onclick="servo_left();">
-      <input type="button" value="down" onclick="servo_down();">
-      <input type="button" value="right" onclick="servo_right();">
+      <input type="button" value="up" class="btn btn-primary" onclick="servo_up();"><br>
+      <input type="button" value="left" class="btn btn-primary" onclick="servo_left();">
+      <input type="button" value="down" class="btn btn-primary" onclick="servo_down();">
+      <input type="button" value="right" class="btn btn-primary" onclick="servo_right();">
       
     </div>
     
